@@ -1,5 +1,5 @@
 {
-  "name": "Wallet",
+  "name": "wallet",
   "private": true,
   "scripts": {
     "build": "turbo run build",
