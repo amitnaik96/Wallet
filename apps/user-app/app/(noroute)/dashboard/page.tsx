@@ -4,4 +4,4 @@ export default function Dashboard() {
     </div>
 }
 
-// CI pipeline test 
+// CI pipeline test!
