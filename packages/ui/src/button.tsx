@@ -1,7 +1,8 @@
+"use client"
 import { ReactNode } from 'react'; 
 
 interface ButtonProps {
-    children : ReactNode,
+    children : ReactNode | string,
     onClick: () => void;
 }
 

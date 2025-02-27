@@ -16,7 +16,7 @@ export async function POST (req: NextRequest) {
             throw new Error("invalid inputs!");
         }
 
-        const { provider, amount}: any = body;
+        const { provider, amount} = body;
         const res = await createOnRampTxn(provider, amount);
         return NextResponse.json({
             message : res.message

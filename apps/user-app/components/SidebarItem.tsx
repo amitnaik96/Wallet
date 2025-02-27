@@ -16,6 +16,6 @@ export const SidebarItem = ({icon, title, href} : SidebarItemProps) => {
                 onClick={() => router.push(href)}
             >
             <div className="pr-2">{icon}</div>
-            <div className={`font-bold ${selected ? "text-[#6a51a6]": "text-slate-500"}`}>{title}</div>
+            <div className={`font-bold ${selected ? "text-[#6a51a6]": "text-slate-500"}`}>{String(title)}</div>
            </div>
 }

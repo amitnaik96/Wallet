@@ -1,4 +1,4 @@
-import { SidebarItem } from '@repo/ui/SidebarItem';
+import { SidebarItem } from '../../components/SidebarItem';
 
 const Layout = ({children} : {children : React.ReactNode}) => {
     return <div className="flex">

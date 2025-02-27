@@ -9,7 +9,7 @@ export const GET = async() => {
                 user : session.user
             });
         }
-    } catch (err) {
+    } catch (_err) {
         return Response.json({
             message : 'You are not logged in!'
         },{
