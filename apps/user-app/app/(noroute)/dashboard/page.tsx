@@ -3,3 +3,5 @@ export default function Dashboard() {
         Dashboard Page
     </div>
 }
+
+// CI pipeline test 
